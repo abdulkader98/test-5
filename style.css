@@ -1,0 +1,400 @@
+
+nav .navbar-brand{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Russo One', sans-serif;
+}
+
+.nav-item a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+.section-1{
+    background: url("img/z2.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+.section-1 .card{
+    background: rgba(0,0,0,0);
+}
+.section-1 .card-body h1{
+    margin-top: 200px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: aliceblue;
+    font-family: 'Poiret One', cursive;
+}
+.section-1 span{
+    font-size: 48px;
+    color: aliceblue;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+/* TEXT CAROUSEL*/
+.carousel-item{
+    min-width: 340px;
+}
+.carousel-item span{
+    color: #c49b66;
+}
+
+/*BUTTON GROUP*/
+.btn{
+    border-radius: 25px;
+    background: none;
+    box-shadow: none;
+    color: #c49b66;
+    border: 1px solid #c49b66;
+}
+.btn:hover{
+    color: black;
+    transition: 0.6s;
+    background: #c49b66;
+}
+
+
+/*bioInformation*/
+#bioInformation .border-webkit{
+    padding: 5px;
+    color: rgb(56, 54, 54);
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Russo One', sans-serif;
+}
+/*#bioInformation .border-webkit{
+    padding: 5px;
+    color: rgb(56, 54, 54);
+    font-size: 54px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Russo One', sans-serif;
+    -webkit-text-stroke: 2px rgb(78, 72, 72);
+}*/
+#bioInformation i{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+#bioInformation span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#aboutMe #bioInformation i{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+#aboutMe #bioInformation span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#aboutMe #bioInformation p{
+    font-size: 13px;
+    color: #8f8f8f;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Kanit', sans-serif;
+}
+
+#bioInformation .md-progress{
+    background: #6b646446;
+}
+#bioInformation .progress-bar{
+    background: #c49b66;
+}
+
+#bioInformation #progressContent small{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#bioInformation #progressContent span{
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#bioInformation .md-progress{
+    height: 8px;
+}
+
+
+
+
+
+
+
+
+/*ABOUT COLUMN*/
+#aboutMe p{
+    font-size: 15px;
+    letter-spacing: 10px;
+    font-family: 'Poiret One', cursive;
+}
+#aboutMe h4{
+    font-size: 28px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    background: #c49b66;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+#aboutMe h6{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#aboutMe h5{
+    font-size: 15px;
+    color: #8f8f8f;
+    line-height: 1.8;
+    margin: 0;
+}
+#aboutMe h3{
+    color: #c49b66;
+    font-size: 12px;
+}
+#aboutMe .list-inline i{
+    font-size: 14px;
+    color: #fff;
+}
+#aboutMe .list-inline i:hover{
+    font-size: 14px;
+    color: #c49b66;
+}
+
+#cvLink a{
+    font-size: 12px;
+    color: #c49b66;
+    font-weight: 300;
+}
+#cvLink a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*SERVICES COLUMN*/
+#servicesColmn .border-webkit{
+    color: rgba(58, 54, 54, 0.479);
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Russo One', sans-serif;
+}
+
+#cards .card{
+    border-radius: 0px;
+    background: #0a0a0c;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+}
+#cards .card .card-body i{
+    color: #c49b66;
+    background: #aca2a236;
+}
+#cards .card .card-body h6{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#cards .card .card-body p{
+    color: #8f8f8f;
+    font-size: 15px;
+}
+
+
+/*MY TABS*/
+#myTabJust li a{
+    color: #fff;
+    border-radius: 25px;
+}
+
+
+#myTabJust li .active {
+	color: #222222;
+	background-color: #c49b66;
+}
+
+#home-just .card{
+    border-radius: 0px;
+}
+#home-just .card-body{
+    padding: 0px;
+}
+
+
+#cityName .bottom-left{
+	color: #fff;
+	position: absolute;
+	bottom: 0%;
+	left: 3%;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cityName a p:hover{
+	color: #c49b66;
+	transition: 0.6s;
+}
+
+
+
+#profile-just .card{
+    border-radius: 0px;
+}
+#profile-just .card-body{
+    padding: 0px;
+}
+
+
+/*CONTACT ME*/
+#contactInfo{
+    background: url('img/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contactInfo .item h6{
+    color: #c49b66;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#contactInfo .item p{
+    font-size: 15px;
+    color: #8f8f8f;
+    line-height: 1.8;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#messageColumn form input{
+    border: none;
+    border-radius: 0px;
+    background: #222;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+#messageColumn form textarea{
+    border: none;
+    border-radius: 0px;
+    background: #222;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.form-control:focus{
+    border-color:#CCC;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+
+
+/*FOOTER*/
+#footer h1{
+    font-weight: 900;
+    font-family: 'Monoton', cursive;
+}
+
+#iconLinks1 i{
+    background: #8f8f8f13;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#iconLinks1 i{
+    color: #c49b66;
+    background: #8f8f8f23;
+    border-radius: 6px;
+}
+#iconLinks1 i:hover{
+    color: black;
+    background: #c49b66;
+    border-radius: 6px;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    transition-duration: 0.6s;
+}
+
+
+
+
+
+@media(max-width: 328px){
+    #bioInformation .border-webkit{
+        padding: 5px;
+        color: rgb(56, 54, 54);
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-family: 'Russo One', sans-serif;
+    }
+    /*SERVICES COLUMN*/
+#servicesColmn .border-webkit{
+    color: rgb(56, 54, 54);
+    font-size: 10vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Russo One', sans-serif;
+}
+}
+@media(max-width: 576px){
+
+    .nav-item a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+    #bannerCard{
+        margin-top: 40vh;
+    }
+
+    .section-1 .card-body h1{
+        font-weight: 900;
+        letter-spacing: 8px;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Poiret One', cursive;
+    }
+    .section-1 span{
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+    .carousel-item{
+        min-width: 140px;
+    }
+    .carousel-item span{
+        color: #c49b66;
+    }
+}
